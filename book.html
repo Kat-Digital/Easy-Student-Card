@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Student Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">STUDENT CARD</h2>
+        <nav>
+            
+            
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="book.html">Booking</a>
+            <a href="appointment.html">Appointment</a>
+            
+        </nav>
+        <h1>Booking</h1>
+    </header>
+
+    
+
+
+    <div class="wrapper">
+        <div class="form-box book">
+            <h2>Booking</h2>
+            <form action="#">                          
+                <h1>Date and Time available</h1>
+                <div id="datetime"></div>
+                <button onclick="generateDateTime()">Change Date & Time</button>
+                <button onclick="submitDateTime()">Submit</button>
+                <div class="output" id="submitted"></div>
+                <div class="output" id="password"></div>
+            </form>
+
+
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
